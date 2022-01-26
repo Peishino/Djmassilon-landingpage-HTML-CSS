@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-size: 100%;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55,55,55,1) 25%, rgba(40,40,40,1) 50%, rgba(50,50,50,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 90px;
+}
+
+.cabecalho-menu-texto {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cabecalho-imagem {
+ width: 200px;
+}
+
+.principal {
+    border-top: 0.5px solid gray;
+    margin-bottom: 50px;
+}
+
+.principal-primeiro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-primeiro-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.principal-primeiro-imagem {
+    width: 400px;
+    padding-top: 30px;
+}
+
+.principal-primeiro-texto-titulo {
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal-primeiro-texto-subtitulo{
+    font-weight: 400;
+    font-size: 25px;
+    color: #d0d0d0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.principal-primeiro-texto-botao {
+    margin-top: 60px;
+    background-color: #d0d0d0;
+    width: 140px;
+    height: 55px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 25px;
+    color: black;
+}
+
+.principal-primeiro-texto-botao > a {
+    color: black;
+    text-decoration: underline gray;
+}
+
+.principal-primeiro-texto-botao:hover {
+    background-color: gray;
+    color: #d0d0d0;
+    cursor: pointer;
+     
+}
+
+.principal-segundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.principal-segundo-titulo {
+    border-top: 0.5px solid gray;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal-segundo-texto {
+    font-weight: 400;
+    font-size: 18px;
+    color: #d0d0d0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.final {
+    padding: 30px;
+    border-top: 0.5px solid gray;
+
+}
+
+.final-imagem{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+a {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline #d0d0d0;
+    color: #d0d0d0;
+    font-family: 'Nunito Sans', sans-serif;
+}
